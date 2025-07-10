@@ -1,0 +1,25 @@
+Veri Yapılar Ve Algortimalar Proje 3
+
+Soru:
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Genellikle dizideki ilk eleman root olmaktadır, o yüzden root 7'dir.
+
+7'den büyükler sağında, küçükler solunda olacak şekilde ayarlayacağız.
+
+ilk olarak 5den başlanır sola
+daha sonra 1 ile devam edilir. sola gidilir, 5 ile karşılaştırılınca onun da soluna yerleştirilir.
+8 direkt sağ tarafa, 3 ise önce sola, 5 ile karşılaşınca yine sola ama 1'den büyük olduğu için 1'in sağına yerleşir.
+bu şekilde devam eder...
+
+         7
+       /   \
+      5     8
+     / \     \
+    1   6     9
+   / \
+  0   3
+     / \
+    2   4
+
+
